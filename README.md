@@ -32,6 +32,23 @@ Other options.
 
     --param quotechar='/'
 
+Automation:
+
+    $ sparrow project create utils 
+
+    $ sparrow task add utils csvtotable
+
+    $ sparrow task ini utils/csvtotable
+
+    ---
+    in: /tmp/goog.csv 
+    out: /tmp/goog.html
+    caption: my table
+
+
+    $ sparrow task run utils/csvtotable
+
+
 # Author
 
 - Csvtotable's author - [Vivek R](https://github.com/vividvilla)
