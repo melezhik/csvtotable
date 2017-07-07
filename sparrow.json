@@ -1,6 +1,6 @@
 {
   "name": "csvtotable",
-  "version" : "0.0.6",
+  "version" : "0.0.7",
   "description" : "Sparrow wrapper for csvtotable",
   "category" : "utilities",
   "url" : "https://github.com/melezhik/csvtotable"

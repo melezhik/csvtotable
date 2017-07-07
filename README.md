@@ -36,9 +36,9 @@ Automation:
 
     $ sparrow project create utils 
 
-    $ sparrow task add utils csvtotable
+    $ sparrow task add utils csv-to-html csvtotable
 
-    $ sparrow task ini utils/csvtotable
+    $ sparrow task ini utils/csv-to-html
 
     ---
     in: /tmp/goog.csv 
@@ -46,7 +46,7 @@ Automation:
     caption: my table
 
 
-    $ sparrow task run utils/csvtotable
+    $ sparrow task run utils/csv-to-html
 
 
 # Author
